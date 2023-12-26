@@ -1,0 +1,82 @@
+//Adding configurations
+git config --global user.name "Your Name"
+git config --global user.email "youremailaddress@_Example_ .com"
+
+
+//to Check current client config
+git config -l
+
+
+//Initializing a Git Repository
+git init 
+--git init initializes an empty git repository in the working directory.
+
+
+//Cloning Repository
+--git clone creates a copy of remote repository on your computer.
+git clone URL
+
+
+//Displaying the Remote
+--Lists the details of the configured remote repo.
+git remote -v
+
+
+//Adding Remote Repository
+--git remote add can be used to configure a remote repository to the local repository.
+git remote add origin URL
+--ex:-git remote add origin https://github.com/icecream-dev/tutoiral-2.git
+
+
+//Working Directory
+--We shall refer the project folder as  Working Directory.
+--to create file, we can use below command.
+touch fileName
+
+
+//Inspecting a Repository
+--Git tracks the changes in the working directory.
+git status
+
+
+//Steps in Creating a Commit
+Step 1: Adding Changes To Staging Area
+--git add adds the changes to the staging area.
+git add file_path
+
+Step 2: Committing Changes
+--commit is a snapshot of the project's currently staged changes.
+git commit -m "message"
+--ex:-git commit -m "adds alice file"\
+
+
+//Listing all commits
+--git log lists all commits.
+git log
+
+
+//Unstaged Changes
+--git diff shows the unstaged changes.
+git diff
+
+
+//Uncommitted Changes
+--shows the staged and uncommitted changes.
+git diff --staged
+
+
+//Pushing Commits
+--it is used to publish new commits from local to a remote repository.
+git push -u origin master
+
+
+
+//Pull Commits
+-- it is used to pull latest commits from a remote repository to your local repository.
+git pull origin master
+
+
+
+
+
+
