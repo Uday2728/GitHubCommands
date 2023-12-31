@@ -75,8 +75,10 @@ git push -u origin master
 -- it is used to pull latest commits from a remote repository to your local repository.
 git pull origin master
 
-
-
+  
+//Connecting remote and local repo with using SSH
+--we will create a password which can be used for login while pushing
+ssh-keygen -o
 
 
 
